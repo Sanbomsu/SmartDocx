@@ -440,6 +440,7 @@ class TableTitleStyleBase(TitleStyleBase):
 
     def __init__(self,
                  font_size=DocFontSize.Five,
+                 text_align=DocAlignment.center,
                  font_weight=True,
                  level=None,
                  line_spacing=1.5,
@@ -450,6 +451,7 @@ class TableTitleStyleBase(TitleStyleBase):
                  **kwargs):
         super(TableTitleStyleBase, self).__init__(
             font_size=font_size,
+            text_align=text_align,
             font_weight=font_weight,
             level=level,
             line_spacing=line_spacing,
