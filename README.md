@@ -3,6 +3,8 @@
 通过对`docx`和`pyecharts`进行封装，方便快速地生成包含文章主副标题、摘要、多级标题、段落、表格和图片的docx格式word文档。此外，还可以对文本、表格和图片的样式进行修改，生成符合要求的word文档。
 
 通过`pip3 install smartDocx`安装最新包后，即可使用。
+
+如有使用问题, 可至[Github SmartDocx](https://github.com/Sanbomsu/SmartDocx) 反馈。
 # 2.目录结构
 ---
 ```shell
