@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 """
 @File  : __init__.py
 @IDE   : PyCharm
@@ -5,7 +6,6 @@
 @Date  : 2021/7/13
 @Desc  : 
 """
-# -*- coding: utf-8 -*-
 
 __version__ = "0.0.4"
 

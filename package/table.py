@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 """
 @File  : table.py
 @IDE   : PyCharm
@@ -6,17 +7,16 @@
 @Desc  : 
 """
 
-# -*- coding: utf-8 -*-
 from docx.document import Document as DocObject
 from docx.oxml import OxmlElement, parse_xml
 from docx.oxml.ns import qn, nsdecls
 from docx.shared import Cm
 from docx.table import Table as DocTable, _Cell
 
-from smartDocx.config import DocStylesBase
-from smartDocx.constants import LENGTH_SWIFT, TableVerticalAlignment, TableLandscapeAlignment
-from smartDocx.package.base import Base
-from smartDocx.package.content import Content
+from config import DocStylesBase
+from constants import LENGTH_SWIFT, TableVerticalAlignment, TableLandscapeAlignment
+from package.base import Base
+from package.content import Content
 
 
 class Table(Base):

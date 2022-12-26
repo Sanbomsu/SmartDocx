@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 """
 @File  : title.py
 @IDE   : PyCharm
@@ -6,12 +7,11 @@
 @Desc  : 
 """
 
-# -*- coding: utf-8 -*-
 from docx import Document
 from docx.document import Document as DocObject
 
-from smartDocx.config import DocStylesBase
-from smartDocx.package.paragraph import Paragraph
+from config import DocStylesBase
+from package.paragraph import Paragraph
 
 
 class Title(Paragraph):

@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 """
 @File  : picture.py
 @IDE   : PyCharm
@@ -6,12 +7,11 @@
 @Desc  : 
 """
 
-# -*- coding: utf-8 -*-
 from docx.document import Document as DocObject
 from docx.shared import Cm
 
-from smartDocx.config import DocStylesBase, PicImgStyleBase
-from smartDocx.package.content import Content
+from config import DocStylesBase, PicImgStyleBase
+from package.content import Content
 
 
 class Picture(object):

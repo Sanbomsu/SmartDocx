@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 """
 @File  : content.py
 @IDE   : PyCharm
@@ -5,9 +6,8 @@
 @Date  : 2021/7/16
 @Desc  : 
 """
-# -*- coding: utf-8 -*-
-from smartDocx.config import DocStylesBase
-from smartDocx.package.paragraph import Paragraph
+from config import DocStylesBase
+from package.paragraph import Paragraph
 
 
 class Content(Paragraph):

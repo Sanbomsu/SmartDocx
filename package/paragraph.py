@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 """
 @File  : paragraph.py
 @IDE   : PyCharm
@@ -6,7 +7,6 @@
 @Desc  : 
 """
 
-# -*- coding: utf-8 -*-
 import re
 
 from docx import Document
@@ -15,8 +15,8 @@ from docx.oxml import OxmlElement
 from docx.oxml.ns import qn
 from docx.shared import Pt, Inches
 
-from smartDocx.config import DocStylesBase
-from smartDocx.package.base import Base
+from config import DocStylesBase
+from package.base import Base
 
 
 class Paragraph(Base):

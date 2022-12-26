@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 """
 @File  : base.py
 @IDE   : PyCharm
@@ -5,13 +6,12 @@
 @Date  : 2021/7/13
 @Desc  : 自动化报告
 """
-# -*- coding: utf-8 -*-
 
 from docx.oxml.ns import qn
 from docx.shared import Pt, RGBColor
 
-from smartDocx.config import DocStylesBase
-from smartDocx.constants import DEFAULT_WEST_FONT
+from config import DocStylesBase
+from constants import DEFAULT_WEST_FONT
 
 
 class Base(object):

@@ -18,10 +18,10 @@ from docx.enum.text import WD_BREAK
 from docx.oxml import OxmlElement, ns
 from docx.shared import Cm
 
-from smartDocx.config import PaperTitleStyleBase, PaperSubTitleStyleBase, AbstractStyleBase, \
+from config import PaperTitleStyleBase, PaperSubTitleStyleBase, AbstractStyleBase, \
     FirstTitleStyleBase, SecondTitleStyleBase, ThirdTitleStyleBase, FourthTitleStyleBase, ContentStyleBase, \
     TableTitleStyleBase, TableHeadStyleBase, TableBodyStyleBase, PicTitleStyleBase, PageStyleBase
-from smartDocx.constants import WORD_BUILTIN_STYLES, TEMPLATE_DIR, Orientation
+from constants import WORD_BUILTIN_STYLES, TEMPLATE_DIR, Orientation
 
 
 class SmartReportDataBase(object):

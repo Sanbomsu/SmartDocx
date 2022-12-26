@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 """
 @File  : __init__.py
 @IDE   : PyCharm
@@ -5,4 +6,3 @@
 @Date  : 2021/10/3
 @Desc  : 
 """
-# -*- coding: utf-8 -*-

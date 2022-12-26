@@ -1,18 +1,17 @@
+# -*- coding: utf-8 -*-
 """
 @File  : utils.py
 @IDE   : PyCharm
 @Author: Sanbom
 @Date  : 2021/7/14
-@Desc  : 
+@Desc  :
 """
-
-# -*- coding: utf-8 -*-
 import functools
 import inspect
 import time
 from typing import Any
 
-from smartDocx import SmartReportBase
+from . import SmartReportBase
 
 
 def get_function_name():

@@ -7,7 +7,7 @@
 """
 # -*- coding: utf-8 -*-
 
-from smartDocx.constants import DocFontSize, DocFontFamily, DocAlignment, TableLandscapeAlignment, \
+from .constants import DocFontSize, DocFontFamily, DocAlignment, TableLandscapeAlignment, \
     TableVerticalAlignment, Orientation
 
 

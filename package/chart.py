@@ -13,7 +13,7 @@ from pyecharts.faker import _Faker
 from pyecharts.render import make_snapshot
 from snapshot_phantomjs import snapshot
 
-from smartDocx.constants import TMP_DIR
+from constants import TMP_DIR
 
 
 class Chart(object):
