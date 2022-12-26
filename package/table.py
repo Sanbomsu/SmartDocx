@@ -27,7 +27,7 @@ class Table(Base):
         self.body_styles = self.styles
         if kwargs.get('head_config'):
             head_config = kwargs['head_config']
-            self.head_styles = head_config._to_dict() if isinstance(head_config, DocStylesBase) else head_config
+            self.head_styles = head_config if isinstance(head_config, dict) else head_config._to_dict()
         else:
             self.head_styles = self.body_styles
         self.column_width_dict = None

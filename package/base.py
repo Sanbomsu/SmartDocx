@@ -26,7 +26,7 @@ class Base(object):
         :param kwargs:
         """
         self.type = content_type
-        self.styles = config._to_dict() if isinstance(config, (DocStylesBase,)) else config
+        self.styles = config if isinstance(config, (dict,)) else config._to_dict()
         self.args = args
         self.kwargs = kwargs
 
