@@ -1,0 +1,7 @@
+__pycachhe/
+.git/
+.idea/
+.DS_Store
+
+# gitkeep
+!.gitkeep
